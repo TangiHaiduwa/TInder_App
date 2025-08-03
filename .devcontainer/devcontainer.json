@@ -1,0 +1,12 @@
+{
+  "name": "Flutter Codespace",
+  "image": "cirrusci/flutter:stable",
+  "postCreateCommand": "flutter doctor",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "dart-code.flutter"
+      ]
+    }
+  }
+}
